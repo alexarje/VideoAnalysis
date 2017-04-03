@@ -1,4 +1,4 @@
-
+--------------
 File structure
 --------------
 _data.txt		= Quantitative data from the analysis, see below for details
@@ -17,7 +17,7 @@ _mgv.tif		= Same as above, but in raw TIFF format and without image normalizatio
 _mhi_first.jpg	= Motion history image: displaying motion average image (mavg) on top of first video frame
 _mhi_last.jpg	= Motion history image: displaying motion average image (mavg) on top of last video frame
 
-                                                                                                                              
+                                                                                                                            
 --------------
 Data structure
 --------------
@@ -28,5 +28,3 @@ WoM				= Width of motion (distance between leftmost and rightmost pixel)
 AoM				= Area of motion (HoM*WoM)
 CoM_x			= Centroid of motion X (spatial centre of AoM - X component)
 CoM_y			= Centroid of motion Y (spatial centre of AoM -Y component)
-Circularity		= The compactness of the shape (experimental)
-Perimeter		= The perimeter of the shape (experimental)
