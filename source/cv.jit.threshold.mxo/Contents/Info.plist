@@ -5,17 +5,17 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>createfolder</string>
+	<string>cv.jit.threshold</string>
 	<key>CFBundleIdentifier</key>
-	<string>ch.jasch.createfolder</string>
+	<string>com.jmp.cv.jit.threshold</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>iLaX</string>
 	<key>CFBundleSignature</key>
-	<string>????</string>
+	<string>max2</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.7.2</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 </dict>
