@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 23.0, 46.0, 795.0, 283.0 ],
+		"rect" : [ 0.0, 44.0, 822.0, 305.0 ],
 		"bgcolor" : [ 0.784314, 0.784314, 0.784314, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -891,7 +891,7 @@
 					"patching_rect" : [ 1008.0, 419.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 241.0, 143.0, 20.0 ],
-					"text" : "CIMA v0.6.3 - 2012-12-14"
+					"text" : "CIMA v0.6.4 - 2012-12-17"
 				}
 
 			}
@@ -2911,7 +2911,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 444.0, 307.0, 146.0, 17.0 ],
-																	"text" : "2012-12-14T10:53:56"
+																	"text" : "2012-12-17T18:55:13"
 																}
 
 															}
@@ -7688,7 +7688,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 479.0, 346.0, 53.0, 29.0 ],
-																	"text" : "dim 568 657"
+																	"text" : "dim 576 648"
 																}
 
 															}
@@ -15516,7 +15516,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 1539.0, 183.0, 886.0, 702.0 ],
+						"rect" : [ 176.0, 44.0, 886.0, 702.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15536,6 +15536,31 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-33",
+									"maxclass" : "jit.fpsgui",
+									"mode" : 2,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 136.0, 631.0, 80.0, 36.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 108.0, 378.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-31",
 									"maxclass" : "button",
@@ -15583,7 +15608,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 475.0, 314.0, 76.0, 20.0 ],
+									"patching_rect" : [ 506.0, 314.0, 76.0, 20.0 ],
 									"text" : "jit.normalize",
 									"varname" : "xraymean[7]"
 								}
@@ -17377,8 +17402,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 347.0, 314.0, 122.0, 20.0 ],
-									"text" : "jit.op @op / @val 50.",
+									"patching_rect" : [ 347.0, 314.0, 129.0, 20.0 ],
+									"text" : "jit.op @op / @val 100.",
 									"varname" : "xraymean[4]"
 								}
 
@@ -17441,6 +17466,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-14", 0 ]
@@ -17566,6 +17600,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-28", 0 ]
 								}
 
 							}
@@ -18262,7 +18305,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 2469.0, 173.0, 720.0, 681.0 ],
+						"rect" : [ 720.0, 173.0, 720.0, 681.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -20008,8 +20051,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 211.0, 337.0, 120.0, 20.0 ],
-									"text" : "jit.op @op / @val 50.",
+									"patching_rect" : [ 211.0, 337.0, 125.0, 20.0 ],
+									"text" : "jit.op @op / @val 100.",
 									"varname" : "xraymean[4]"
 								}
 
