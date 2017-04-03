@@ -32,3 +32,5 @@ BMi_x			= Bounding box miniumum X
 BMi_y			= Bounding box miniumum Y
 BMa_x			= Bounding box maximum X
 BMa_y			= Bounding box maximum Y
+time_s			= Time in seconds, calculated from QuickTime time code
+_
