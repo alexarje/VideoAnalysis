@@ -1,9 +1,9 @@
 10
 
 dir
-456
-svn+ssh://svn.uio.no/svnroot/imv-sma/Max/Subprojects/Adde/CIMA/cv.jit.mean.mxo/Contents
-svn+ssh://svn.uio.no/svnroot/imv-sma
+498
+svn+ssh://alexanje@svn.uio.no/svnroot/imv-sma/Max/Subprojects/Adde/CIMA/cv.jit.mean.mxo/Contents
+svn+ssh://alexanje@svn.uio.no/svnroot/imv-sma
 
 
 
@@ -35,7 +35,7 @@ file
 
 
 
-2010-11-08T15:07:28.000000Z
+2012-02-28T05:33:02.000000Z
 37da697f78e6b4c5f35b583e38d911a8
 2010-06-11T10:35:10.538635Z
 299
@@ -69,7 +69,7 @@ file
 
 
 
-2010-11-08T15:07:28.000000Z
+2012-02-28T05:33:02.000000Z
 aa14521fe9a7554d1ada9c8c72714a23
 2010-06-11T10:35:10.538635Z
 299

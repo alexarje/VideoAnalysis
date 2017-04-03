@@ -1,9 +1,9 @@
 10
 
 dir
-456
-svn+ssh://svn.uio.no/svnroot/imv-sma/Max/Subprojects/Adde/CIMA/cv.jit.centroids.mxo
-svn+ssh://svn.uio.no/svnroot/imv-sma
+498
+svn+ssh://alexanje@svn.uio.no/svnroot/imv-sma/Max/Subprojects/Adde/CIMA/cv.jit.centroids.mxo
+svn+ssh://alexanje@svn.uio.no/svnroot/imv-sma
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2010-11-08T15:07:28.000000Z
+2012-02-28T05:33:02.000000Z
 24980c9c95574e2526c481ceb03207b0
 2010-06-11T10:35:10.538635Z
 299
