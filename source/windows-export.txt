@@ -1,0 +1,5 @@
+open thispatcher
+folder "C:/Documents and Settings/alexanje/My Documents/max/externals/Lobjects/"
+folder "C:/Program Files/Cycling '74/MaxMSP 4.6/support/"
+folder "C:/Documents and Settings/alexanje/My Documents/max/Jamoma-active/Jamoma/modules/"
+folder "C:/Documents and Settings/alexanje/My Documents/max/Jamoma-active/Jamoma/library/externals/windows/"include "C:/Documents and Settings/alexanje/My Documents/max/Jamoma-active/Jamoma/library/externals/windows/jcom.sum%.mxe"
