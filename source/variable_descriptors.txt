@@ -1,0 +1,20 @@
+===============
+Data structure
+===============
+time = Time code from video file
+QoM = Quantity of motion (sum of pixels in motion image)
+HoM = Height of motion (distance between lowest and highest pixel)
+WoM = Width of motion (distance between leftmost and rightmost pixel)
+AoM = Area of motion (HoM*WoM)
+CoM_x = Centroid of motion X (spatial centre of AoM - X component)
+CoM_y = Centroid of motion Y (spatial centre of AoM -Y component)
+CoM_r = Centroid of motion r (spatial centre of AoM - vector length polar coordinates)
+CoM_t = Centroid of motion t (spatial centre of AoM - vector angle polar coordinates)
+d_CoM_x = First derivative of CoM_x
+d_CoM_y = First derivative of CoM_y
+d_CoM_r = First derivative of CoM_r
+d_CoM_t = First derivative of CoM_t
+dd_CoM_r = Second derivative of CoM_r
+dd_CoM_t = Second derivative of CoM_t
+circularity = The compactness of the shape (experimental)
+perimeter = The perimeter of the shape (experimental)
