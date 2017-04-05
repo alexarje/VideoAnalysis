@@ -4681,7 +4681,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 173.0, 44.0, 948.0, 806.0 ],
+						"rect" : [ 408.0, 44.0, 948.0, 806.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -4701,6 +4701,48 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 476.5, 391.0, 82.0, 19.0 ],
+									"text" : "r counter-max"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 466.0, 292.0, 69.0, 19.0 ],
+									"text" : "r more-files"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 510.0, 420.0, 32.5, 19.0 ],
+									"text" : "int"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
@@ -4815,8 +4857,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 79.5, 187.0, 70.0, 19.0 ],
-									"text" : "s more-files"
+									"patching_rect" : [ 79.5, 187.0, 83.0, 19.0 ],
+									"text" : "s counter-max"
 								}
 
 							}
@@ -5246,9 +5288,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "bang", "int" ],
+									"outlettype" : [ "bang", "bang", "bang" ],
 									"patching_rect" : [ 52.5, 159.0, 46.0, 19.0 ],
-									"text" : "t b b 0"
+									"text" : "t b b b"
 								}
 
 							}
@@ -5452,10 +5494,28 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-39", 3 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
 								}
 
 							}
@@ -5864,15 +5924,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-52", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-66", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-62", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5922,6 +5973,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -7854,7 +7914,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 444.0, 307.0, 146.0, 17.0 ],
-																	"text" : "2014-08-08T16:08:15"
+																	"text" : "2014-08-12T22:08:27"
 																}
 
 															}
@@ -22151,8 +22211,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 132.0, 227.0, 592.0, 17.0 ],
-									"text" : "\"Macintosh HD:/Users/alexanje/Desktop/cima-box-trim/CIMABabyedrecording_crop_trim.mov\""
+									"patching_rect" : [ 132.0, 227.0, 592.0, 17.0 ]
 								}
 
 							}
