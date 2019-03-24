@@ -1,7 +1,6 @@
 # VideoAnalysis
 
 
-
 Non-realtime video analysis, exporting motiongrams and various quantitative features of movement in the video file.
 
 
